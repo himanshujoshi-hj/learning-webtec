@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-section {
+  height: 100vh;
+  background-image: url("https://www.tooplate.com/templates/2164_compass/images/hero-01.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.main-heading {
+  font-size: 5rem;
+  color: rgb(255, 255, 255);
+  padding: 50px 60px;
+  margin: 80px 100px;
+  font-family: "EB Garamond", serif;
+}
+.header-top {
+  font-family: "Google Sans", sans-serif;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 50px;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding: 0 20px;
+}
+.main-paragraph {
+  padding: 40px 50px;
+  color: white;
+}
+.nav-links li {
+  padding: 0 20px;
+}
+.nav-links li a {
+  color: rgb(231, 226, 226);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+.nav-links li a:hover {
+  color: rgb(22, 21, 21);
+  font-size: 15px;
+  transition: all ease-in-out;
+}
+.header-top h1:hover {
+  color: rgb(172, 170, 170);
+}
+.div-sc {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  writing-mode: vertical-rl;
+  color: black;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+.whatsapp-button img {
+  position: fixed;
+  height: 80px;
+  width: 80px;
+  bottom: 20px;
+  right: 20px;
+}
+.tel-button {
+  left: 20px;
+}
+.parent {
+  /* height: 100vh; */
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: justify;
+  text-align: justify;
+  align-items: center;
+}
+.child {
+  /* border: 2px dashed black; */
+  /* height: 80vh; */
+  width: 50%;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+.prologue-tittle {
+  display: flex;
+  width: 50%;
+  justify-content: flex-start;
+}
+.drop-line {
+  color: blue;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1;
+}
+.hsection {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: justify;
+  text-align: justify;
+  align-items: center;
+}
+.compass {
+  width: 50%;
+  color: blue;
+  font-style: italic;
+  font-size: 2.5rem;
+  line-height: 1.45;
+  letter-spacing: -0.02em;
+  margin-top: 70px;
+}
+.line {
+  border-top: 1px solid rgb(49, 47, 47);
+  width: 50%;
+  margin-top: 60px;
+}
+.field-heading {
+  width: 50%;
+  text-align: left;
+  padding-bottom: 40px;
+  margin-top: 30px;
+  font-weight: lighter;
+  color: rgb(53, 54, 54);
+}
+.line2 {
+  border-top: 1px solid rgb(106, 106, 106);
+  width: 50%;
+  margin-bottom: 20px;
+}
+.parent-sec {
+  width: 60%;
+  padding: 35px 42px;
+  text-align: justify;
+}
+
+.para-txt {
+  font-size: 36px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: -0.7px;
+}
+
+.cap-s {
+  float: left;
+  color: #084bb5;
+  font-size: 190px;
+  line-height: 0.76;
+  padding-right: 17px;
+  padding-top: 10px;
+  font-weight: 400;
+}
+.wan-text {
+  width: 60%;
+  padding: 35px 42px;
+  text-align: justify;
+}
+
+.wan-para {
+  font-size: 36px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: -0.7px;
+}
+.wan-line {
+  float: left;
+  color: #084bb5;
+  font-size: 190px;
+  line-height: 0.76;
+  padding-right: 17px;
+  padding-top: 10px;
+  font-weight: 400;
+}
+.first-page {
+  width: 100%;
+  height: 100vh;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.97) 0%,
+      rgba(255, 255, 255, 0.9) 35%,
+      rgba(255, 255, 255, 0.6) 60%,
+      rgba(255, 255, 255, 0.1) 100%
+    ),
+    url(https://www.tooplate.com/templates/2164_compass/images/route-03.jpg);
+}
+.first {
+  font-size: 70px;
+  margin-right: 40px;
+  font-weight: 40px;
+}
+.heading3 {
+  color: blue;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.mountains {
+  font-size: 50px;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+.content1 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+.content2 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+.rchapter {
+  margin-top: 30px;
+  padding-top: 30px;
+}
+.first-div {
+  padding: 20px;
+  padding-left: 40px;
+  width: 50%;
+}
+.rchapter a {
+  text-decoration: none;
+  color: blue;
+}
+.second-page {
+  width: 100%;
+  height: 100vh;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.97) 0%,
+      rgba(255, 255, 255, 0.9) 35%,
+      rgba(255, 255, 255, 0.6) 60%,
+      rgba(255, 255, 255, 0.1) 100%
+    ),
+    url(https://wallpapers.com/images/featured/nature-background-r7cib0aiunz1z4t4.jpg);
+}
+.second-div {
+  padding: 20px;
+  padding-left: 40px;
+  width: 50%;
+}
+.second {
+  font-size: 70px;
+  margin-right: 40px;
+  font-weight: 40px;
+}
+.heading-second {
+  color: blue;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.blue {
+  font-size: 50px;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+.content3 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+.content4 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+.third-page {
+  width: 100%;
+  height: 100vh;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.97) 0%,
+      rgba(255, 255, 255, 0.9) 35%,
+      rgba(255, 255, 255, 0.6) 60%,
+      rgba(255, 255, 255, 0.1) 100%
+    ),
+    url(https://wallpapers.com/images/featured/beautiful-scenery-wnxju2647uqrcccv.jpg);
+}
+.third-div {
+  padding: 20px;
+  padding-left: 40px;
+  width: 50%;
+}
+.third {
+  font-size: 70px;
+  margin-right: 40px;
+  font-weight: 40px;
+}
+.heading-third {
+  color: blue;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.edges {
+  font-size: 50px;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+.content5 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+.content6 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  padding-top: 20px;
+}
